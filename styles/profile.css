@@ -1,6 +1,10 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../FontsFree-Net-SFProText-Regular.ttf");
+}
 .header-mobile {
-  width: 100%;
   height: 10%;
+  width: 100%;
   display: none;
   align-items: center;
   font-weight: 600;
@@ -9,9 +13,9 @@
 .header-mobile span {
   margin-left: auto;
 }
-.header-mobile img {
+.header-mobile img:last-child {
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 0.7rem;
 }
 
 .main-content {
@@ -23,16 +27,17 @@
   display: none;
 }
 .main-content nav {
-  height: 10%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  height: 10%;
 }
 .main-content nav button {
-  width: 100%;
   height: 100%;
+  width: 100%;
   background: transparent;
-  border-top: 1px solid rgba(60, 60, 67, 0.29);
+  border-top: 1px solid rgba(60, 60, 67, 0.18);
   font-family: "SF Pro Text";
 }
 .main-content nav button:first-child {
@@ -42,26 +47,27 @@
 .user-info {
   height: 25%;
   width: 100%;
-  padding: 10px 30px;
+  padding: 0.7rem 1.9rem;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .user-info img {
-  width: 150px;
-  height: 150px;
+  height: 9rem;
+  width: 9rem;
   border-radius: 100%;
 }
 .user-info div {
-  height: 150px;
-  width: 80%;
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   justify-content: space-around;
+  height: 9.4rem;
+  width: 80%;
 }
 .user-info div span:nth-child(2) {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .posts {
@@ -69,7 +75,7 @@
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 20px;
+  gap: 1.25rem;
 }
 .posts img {
   width: 100%;
@@ -101,22 +107,23 @@
     display: none;
   }
   .user-info span:nth-child(2) {
-    height: 100px;
+    height: 6.25rem;
   }
   .user-info span:nth-child(2) p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: normal;
   }
   .user-info span:last-child {
     position: fixed;
-    top: 180px;
-    left: 15px;
-    padding-top: 10px;
+    top: 10.6rem;
+    left: 0.9rem;
+    padding-top: 0.7rem;
   }
   .user-info img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
 
   .posts {

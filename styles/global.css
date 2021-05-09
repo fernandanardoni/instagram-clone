@@ -17,28 +17,29 @@ body {
   align-items: center;
   overflow: hidden;
   background: #f2f2f2;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-family: "SF Pro Text";
 }
 
 header,
 footer {
-  width: 100%;
   height: 10%;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   background: #fafafa;
 }
 header input,
 footer input {
-  width: 250px;
   height: 50%;
-  background: #f2f2f2;
-  border: 1px solid #dbdbdb;
+  width: 15.7rem;
+  background: rgba(118, 118, 128, 0.12);
+  border: 1px solid rgba(60, 60, 67, 0.18);
   outline: none;
-  border-radius: 6px;
-  text-indent: 20px;
+  border-radius: 0.4rem;
+  text-indent: 1.25rem;
 }
 header input::placeholder,
 footer input::placeholder {
@@ -50,13 +51,13 @@ button, a, input {
 }
 
 .desktop-header {
-  width: 300px;
+  width: 18.75rem;
   display: flex;
   justify-content: space-evenly;
 }
 .desktop-header #profile-img {
-  width: 30px;
-  height: 30px;
+  height: 1.9rem;
+  width: 1.9rem;
   border-radius: 100%;
 }
 
@@ -74,13 +75,13 @@ button {
   outline: none;
 }
 button img {
-  width: 24px;
-  height: 24px;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 
 @media (max-width: 760px) {
   body {
-    font-size: 18px;
+    font-size: 1rem;
   }
 
   header #desktop-logo,
@@ -93,7 +94,7 @@ header .desktop-header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 0 10px;
+    margin: 0 0.7rem;
   }
 
   footer {
@@ -101,11 +102,11 @@ header .desktop-header {
     justify-content: space-between;
   }
   footer:first-child, footer :last-child {
-    padding: 0 10px;
+    padding: 0 0.7rem;
   }
   footer #profile-img {
-    width: 30px;
-    height: 30px;
+    height: 1.7rem;
+    width: 1.7rem;
     border-radius: 100%;
   }
 }

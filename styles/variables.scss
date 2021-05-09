@@ -1,0 +1,33 @@
+@mixin flexbox ($direction, $align, $justify) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin measure ($height, $width) {
+    height: $height;
+    width: $width;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url("../FontsFree-Net-SFProText-Regular.ttf");
+}
+
+$theme-font: 'SF Pro Text';
+
+$body-background: rgb(242, 242, 242);
+
+$theme-color: rgb(55, 151, 239);
+
+$bg-primary: rgba(118, 118, 128, 0.12);
+
+$bg-secondary: rgb(250, 250, 250);
+
+$box-border: rgba(60, 60, 67, 0.18);
+
+$text-primary: rgba(38, 38, 38, 1);
+
+$text-secondary: rgba(0, 0, 0, 0.4);
+

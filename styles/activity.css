@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../FontsFree-Net-SFProText-Regular.ttf");
+}
 .container {
   height: 100%;
   width: 40%;
@@ -7,26 +11,26 @@
   display: none;
 }
 .container ul {
-  padding: 10px;
+  padding: 0.7rem;
 }
 .container ul li {
   list-style-type: none;
-  margin: 20px 0;
+  margin: 1.25rem 0;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.7rem;
 }
 .container ul li img {
-  width: 50px;
-  height: 50px;
+  height: 3.13rem;
+  width: 3.13rem;
   border-radius: 100%;
 }
 .container ul li img:last-child {
   border-radius: 3px;
 }
 .container ul li button {
-  width: 80px;
-  height: 30px;
+  height: 2rem;
+  width: 5rem;
   border-radius: 3px;
   background: #3797ef;
   color: #fafafa;

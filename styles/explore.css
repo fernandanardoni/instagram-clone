@@ -1,10 +1,14 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../FontsFree-Net-SFProText-Regular.ttf");
+}
 .main {
   height: 100%;
   width: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 40px;
+  gap: 2.5rem;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -16,9 +20,9 @@
 }
 
 .search {
-  display: none;
-  width: 100%;
   height: 10%;
+  width: 100%;
+  display: none;
   text-align: center;
 }
 .search input {
@@ -27,23 +31,24 @@
   border: none;
   border-radius: 6px;
   background: rgba(118, 118, 128, 0.12);
-  text-indent: 10px;
-  margin-top: 10px;
+  text-indent: 0.7rem;
+  margin-top: 0.7rem;
+  font-family: "SF Pro Text";
 }
 .search img {
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 
 .categories {
-  width: 100%;
   height: 10%;
+  width: 100%;
   display: none;
   align-items: center;
-  gap: 10px;
+  gap: 0.7rem;
 }
 .categories button {
   height: 70%;
-  width: 10%;
+  width: 20%;
   border: 1px solid rgba(60, 60, 67, 0.18);
   border-radius: 6px;
   font-weight: 600;
