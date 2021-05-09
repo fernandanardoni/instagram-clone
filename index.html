@@ -1,233 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/home.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/login.css">
     <link rel="shortcut icon" href="./img/icon.svg" type="image/x-icon">
-    <title>Home</title>
-  </head>
+    <title>Instagram</title>
+</head>
+<body>
+    <section class="mockup">
+        <img src="./img/insta-mockup.png" alt="mockup">
+    </section>
+    <section class="form">
+        <div class="login">
+            <img src="./img/Instagram Logologo.svg" alt="">
 
-  <body>
+            <form action="./home.html">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Password">
+                <input type="submit" value="Log in">
+            </form>
+            
+            <span>OR</span>
 
-    <header>
-      <img src="./img/Instagram Logologo.svg" id="desktop-logo" alt="logo" />
-      <input type="search" placeholder="Search" />
-      <div class="desktop-header">
-        <button>
-          <a href="./index.html">
-            <img src="./img/Shapehome.svg" alt="home" />
-          </a>
-        </button>
-        <button>
-          <img src="./img/Shapearrow.svg" alt="arrow" />
-        </button>
-        <button>
-          <img src="./img/compass.svg" alt="compass" />
-        </button>
-        <button>
-          <img src="./img/Shapeheart.svg" alt="heart" />
-        </button>
-        <button>
-          <img
-            src="https://github.com/fernandanardoni.png"
-            id="profile-img"
-            alt="profile"
-          />
-        </button>
-      </div>
-      <div class="mobile-header">
-        <button>
-          <img src="./img/Shapecamera.svg" alt="" />
-        </button>
-        <img src="./img/Instagram Logologo.svg" alt="logo" />
-        <button>
-          <img src="./img/Shapearrow.svg" alt="" />
-        </button>
-      </div>
-    </header>
+            <p>Log in with Facebook</p>
+            <p>Forgot password?</p>
 
-    <div class="main">
-      <div class="content">
-        <section class="stories">
-          <div>
-            <img
-              src="https://github.com/fernandanardoni.png"
-              id="profile-img"
-              alt="thumb"
-            />
-            <br />
-            <p>Your Story</p>
-          </div>
 
-          <div>
-            <img src="https://picsum.photos/200?random=4" alt="thumb" />
-            <br />
-            <p>johndoe</p>
-          </div>
-
-          <div>
-            <img src="https://picsum.photos/200?random=6" alt="thumb" />
-            <br />
-            <p>devmaster</p>
-          </div>
-
-          <div>
-            <img src="https://picsum.photos/200?random=8" alt="thumb" />
-            <br />
-            <p>maria</p>
-          </div>
-
-          <div>
-            <img src="https://picsum.photos/200?random=9" alt="thumb" />
-            <br />
-            <p>joebiden</p>
-          </div>
-
-        </section>
-
-        <section class="feed">
-          <div class="post">
-            <div class="user">
-              <img
-                src="https://github.com/fernandanardoni.png"
-                id="profile-img"
-                alt="thumb"
-              />
-              <span>
-                <strong>nnardoni</strong>
-                <p>Belo Horizonte, Minas Gerais</p>
-              </span>
-              <button>
-                <img src="./img/Shapedots.svg" alt="dots" />
-              </button>
-            </div>
-
-            <img
-              src="https://picsum.photos/600?random=3
-                    "
-              alt="post"
-            />
-
-            <span class="caption">
-              <strong>nnardoni</strong>
-              <p>My favorite picture</p>
-            </span>
-
-            <div class="actions">
-              <button>
-                <img src="./img/Shapeheart.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapeballon.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapearrow.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapemark.svg" alt="" />
-              </button>
-            </div>
-          </div>
-          <div class="post">
-            <div class="user">
-              <img
-                src="https://github.com/fernandanardoni.png"
-                id="profile-img"
-                alt="thumb"
-              />
-              <span>
-                <strong>nnardoni</strong>
-                <p>Belo Horizonte, Minas Gerais</p>
-              </span>
-              <button>
-                <img src="./img/Shapedots.svg" alt="dots" />
-              </button>
-            </div>
-
-            <img
-              src="https://picsum.photos/600?random=7
-                    "
-              alt="post"
-            />
-
-            <span class="caption">
-              <strong>nnardoni</strong>
-              <p>My favorite picture</p>
-            </span>
-
-            <div class="actions">
-              <button>
-                <img src="./img/Shapeheart.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapeballon.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapearrow.svg" alt="" />
-              </button>
-              <button>
-                <img src="./img/Shapemark.svg" alt="" />
-              </button>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="side-content">
-        <aside>
-          <div class="user">
-            <img
-              src="https://github.com/fernandanardoni.png"
-              id="profile-img"
-              alt="thumb"
-            />
+        </div>
+        <div class="logup">
             <span>
-              <strong>nnardoni</strong>
-              <p>Fernanda Nardoni</p>
+                <p>Don't have an account? <strong>Sign up</strong></p>
             </span>
-            <button>Switch</button>
-          </div>
-
-          <div class="suggestions">
-            <strong>Suggestions for you</strong>
-
-            <div class="user">
-              <img src="https://picsum.photos/200?random=3" alt="thumb" />
-              <span>
-                <strong>janedoe</strong>
-                <p>followed by johndoe</p>
-              </span>
-              <button>Follow</button>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </div>
-
-    <footer>
-      <button>
-        <img src="./img/Shapehome.svg" alt="home" />
-      </button>
-      <button>
-        <img src="./img/Shapeglass.svg" alt="search" />
-      </button>
-      <button>
-        <img src="./img/Shapemore.svg" alt="post" />
-      </button>
-      <button>
-        <img src="./img/Shapeheart.svg" alt="heart" />
-      </button>
-      <button>
-        <img
-          src="https://github.com/fernandanardoni.png"
-          id="profile-img"
-          alt="thumb"
-        />
-      </button>
-    </footer>
-
-  </body>
+        </div>
+        <div class="download">
+            <p>Get the app</p>
+            <span> 
+               <button>
+                <img color="white" src="./img/apple-big-logo.svg" alt="">
+                Apple Store
+               </button>
+                <button>
+                    <img src="./img/google-play.svg" alt="">
+                    Play Store
+                </button>
+            </span>
+        </div>
+    </section>
+</body>
 </html>
