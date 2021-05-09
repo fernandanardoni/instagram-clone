@@ -1,0 +1,45 @@
+.container {
+  height: 100%;
+  width: 40%;
+  overflow: scroll;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container ul {
+  padding: 10px;
+}
+.container ul li {
+  list-style-type: none;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.container ul li img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.container ul li img:last-child {
+  border-radius: 3px;
+}
+.container ul li button {
+  width: 80px;
+  height: 30px;
+  border-radius: 3px;
+  background: #3797EF;
+  color: #fafafa;
+  font-weight: 600;
+}
+.container ul li img:last-child, .container ul li button:last-child {
+  margin-left: auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=activity.css.map */
